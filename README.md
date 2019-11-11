@@ -1,6 +1,6 @@
-# Enterprise Integration Patterns
+# Enterprise Integration Patterns :office::chains::scroll:
 
-The main objective of this repository is to demonstrate the use of integration platforms and middleware.
+The main objective of this repository is to demonstrate the use of :bridge_at_night: integration platforms and middleware. Insights about the best practices:medal_military:for integrating enterprise applications were gained from the book:closed_book:[Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) _by Gregor Hohpe_.
 
 </br>
 
@@ -10,19 +10,19 @@ The main objective of this repository is to demonstrate the use of integration p
 </br>
 
 ---
-## Business Scenario
+## Business Scenario :briefcase:
 
 </br>
 
 ---
-## Application architecture
+## Application architecture :building_construction:
 
 </br>
 
 ---
-## Software Implementation
+## Software Implementation :keyboard:
 
-Our solution illustrates the implementation of at least five enterprise integration patterns.
+Our solution illustrates the implementation of at least :five: enterprise integration patterns.
 The data processed by the application exists in two different formats - JSON and XML.
 
 </br>
