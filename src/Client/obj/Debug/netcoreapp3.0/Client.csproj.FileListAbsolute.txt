@@ -1,0 +1,14 @@
+/Users/elitsa/Downloads/Mini_Proj_2/Client/bin/Debug/netcoreapp3.0/Client
+/Users/elitsa/Downloads/Mini_Proj_2/Client/bin/Debug/netcoreapp3.0/Client.deps.json
+/Users/elitsa/Downloads/Mini_Proj_2/Client/bin/Debug/netcoreapp3.0/Client.runtimeconfig.json
+/Users/elitsa/Downloads/Mini_Proj_2/Client/bin/Debug/netcoreapp3.0/Client.runtimeconfig.dev.json
+/Users/elitsa/Downloads/Mini_Proj_2/Client/bin/Debug/netcoreapp3.0/Client.dll
+/Users/elitsa/Downloads/Mini_Proj_2/Client/bin/Debug/netcoreapp3.0/Client.pdb
+/Users/elitsa/Downloads/Mini_Proj_2/Client/obj/Debug/netcoreapp3.0/Client.csprojAssemblyReference.cache
+/Users/elitsa/Downloads/Mini_Proj_2/Client/obj/Debug/netcoreapp3.0/Client.AssemblyInfoInputs.cache
+/Users/elitsa/Downloads/Mini_Proj_2/Client/obj/Debug/netcoreapp3.0/Client.AssemblyInfo.cs
+/Users/elitsa/Downloads/Mini_Proj_2/Client/obj/Debug/netcoreapp3.0/Client.dll
+/Users/elitsa/Downloads/Mini_Proj_2/Client/obj/Debug/netcoreapp3.0/Client.pdb
+/Users/elitsa/Downloads/Mini_Proj_2/Client/bin/Debug/netcoreapp3.0/RabbitMQ.Client.dll
+/Users/elitsa/Downloads/Mini_Proj_2/Client/obj/Debug/netcoreapp3.0/Client.csproj.CopyComplete
+/Users/elitsa/Downloads/Mini_Proj_2/Client/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll

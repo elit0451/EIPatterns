@@ -1,0 +1,14 @@
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/bin/Debug/netcoreapp3.0/Reservation
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/bin/Debug/netcoreapp3.0/Reservation.deps.json
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/bin/Debug/netcoreapp3.0/Reservation.runtimeconfig.json
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/bin/Debug/netcoreapp3.0/Reservation.runtimeconfig.dev.json
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/bin/Debug/netcoreapp3.0/Reservation.dll
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/bin/Debug/netcoreapp3.0/Reservation.pdb
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/obj/Debug/netcoreapp3.0/Reservation.csprojAssemblyReference.cache
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/obj/Debug/netcoreapp3.0/Reservation.AssemblyInfoInputs.cache
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/obj/Debug/netcoreapp3.0/Reservation.AssemblyInfo.cs
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/obj/Debug/netcoreapp3.0/Reservation.dll
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/obj/Debug/netcoreapp3.0/Reservation.pdb
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/bin/Debug/netcoreapp3.0/RabbitMQ.Client.dll
+/Users/elitsa/Downloads/Mini_Proj_2/Reservation/obj/Debug/netcoreapp3.0/Reservation.csproj.CopyComplete
