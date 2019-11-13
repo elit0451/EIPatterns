@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/Users/elitsa/.dotnet/store/|arch|/|tfm|",
-      "/Users/elitsa/.nuget/packages"
-    ]
-  }
-}
