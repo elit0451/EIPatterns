@@ -12,7 +12,7 @@ namespace Package
         private void Run()
         {
             MessageGateway.ReceiveCarTypeRequests();
-            Console.WriteLine(" Press [enter] to exit.");
+            Console.WriteLine("Running Package service...");
             Console.ReadLine();
         }
     }

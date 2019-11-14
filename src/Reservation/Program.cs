@@ -16,7 +16,7 @@ namespace Reservation
             MessageGateway.ReceiveAcceptedOffer();   
             MessageGateway.ReceivePayedReservations();   
 
-            Console.WriteLine(" Press [enter] to exit.");
+            Console.WriteLine("Running Reservation service...");
             Console.ReadLine();
         }
     }

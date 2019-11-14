@@ -12,7 +12,7 @@ namespace Car
         private void Run()
         {
              MessageGateway.ReceiveRequests();
-            Console.WriteLine(" Press [enter] to exit.");
+            Console.WriteLine("Running Car service...");
             Console.ReadLine();
         }
     }

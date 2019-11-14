@@ -28,7 +28,6 @@ namespace Car
             var consumer = new EventingBasicConsumer(requestChannel);
             requestChannel.BasicConsume(queue: "cars_queue",
                 autoAck: false, consumer: consumer);
-            Console.WriteLine(" [x] Awaiting for car requests");
 
             consumer.Received += (model, ea) =>
             {

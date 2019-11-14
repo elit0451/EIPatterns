@@ -14,7 +14,7 @@ namespace Payment
             MessageGateway.ReceivePaymentRequests(); 
             MessageGateway.ReceiveCreditCardInfo(); 
 
-            Console.WriteLine(" Press [enter] to exit.");
+            Console.WriteLine("Running Payment service...");
             Console.ReadLine();
         }
     }
