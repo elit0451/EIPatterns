@@ -14,6 +14,11 @@ If you have _Docker_ within reach :whale: you can simply run the following comma
 > Optional: To make sure _RabbitMQ_ is running, navigate to `localhost:15672`in your browser
 
 
+NB:bangbang:Make sure you have **.Net Core 3.0** installed on your system.  
+
+To start the services you'd need to navigate to the `src` directory and execute the [start.sh](/src/start.sh).  
+Next, start the _Client service_ by running `dotnet run` in `src/Client` folder.
+
 </br>
 
 ---
