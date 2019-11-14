@@ -13,7 +13,6 @@ namespace Client
 
         private void Run()
         {
-            Console.WriteLine(MessageGateway.notificationCorrelationId);
             string carTypes = MessageGateway.SendReservationDetails("Sofia", "Porto", new DateTime(2019, 11, 17), new DateTime(2020, 06, 21));
             var doc = XDocument.Parse(carTypes);
 
@@ -26,8 +25,10 @@ namespace Client
             MessageGateway.SendCarType(doc.Root.Elements("Type").ElementAt(selection - 1).Value);
 
 
-
             MessageGateway.ReceiveNotifications();
+            while(true){
+            }
+
         }
 
 

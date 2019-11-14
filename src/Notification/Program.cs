@@ -12,6 +12,8 @@ namespace Notification
         private void Run()
         {
             MessageGateway.ReceiveNotifications();
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
         }
     }
 }

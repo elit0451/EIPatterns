@@ -12,6 +12,12 @@ namespace Reservation
         private void Run()
         {
             MessageGateway.ReceiveRequests();
+            MessageGateway.ReceiveCancelations();   
+            MessageGateway.ReceiveAcceptedOffer();   
+            MessageGateway.ReceivePayedReservations();   
+
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
         }
     }
 }

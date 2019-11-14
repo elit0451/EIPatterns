@@ -12,6 +12,8 @@ namespace Car
         private void Run()
         {
              MessageGateway.ReceiveRequests();
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
         }
     }
 }

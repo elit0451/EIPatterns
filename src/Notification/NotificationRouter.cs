@@ -10,11 +10,22 @@ namespace Notification
         {
             JObject receivedObj = JsonConvert.DeserializeObject<JObject>(message);
             string command = receivedObj["command"].Value<string>();
-            Console.WriteLine("Command IS: " + command);
             switch (command)
             {
                 case "PackageOffers":
                     MessageGateway.SendPackageOffersNotification(message, correlationId);
+                    break;
+                case "ReservationCanceled":
+                    MessageGateway.SendReservationCanceledNotification(message, correlationId);
+                    break;
+                case "CreditCardRequest":
+                    MessageGateway.SendCreditCardRequestNotification(message, correlationId);
+                    break;
+                case "PaymentStatus":
+                    MessageGateway.SendPaymentStatusNotification(message, correlationId);
+                    break;
+                case "SuccessfulBooking":
+                    MessageGateway.SendSuccessfulBookingNotification(message, correlationId);
                     break;
                 default:
                     Console.WriteLine("No such command");

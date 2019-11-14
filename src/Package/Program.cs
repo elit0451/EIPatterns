@@ -12,6 +12,8 @@ namespace Package
         private void Run()
         {
             MessageGateway.ReceiveCarTypeRequests();
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
         }
     }
 }
