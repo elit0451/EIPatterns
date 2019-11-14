@@ -30,6 +30,62 @@ Writtend description of the depicked scenario can be found in a [pdf format](htt
 ---
 ## Application architecture :building_construction:
 
+We have 6 services within this project: 
+
+**Client** - This is the main CLI that the customer will use. It takes input from the user and using queues makes requests to the necessary services. It also has an active listener on new notifications so there is a centralized way of sending information back to the client.
+
+**Reservation** - It is used to keep track of reservations that have been made on the system. It can take requests for new reservations and orchestrates some of the processes needed to complete one.
+
+**Package** - The package service serves the purpose of keeping deals available to the clients. These packages are the actual consumable for the client which will have the choice between a few of them.
+
+**Car** - Acts as a repository. It keeps knowledge about the current cars existing in the system, including their prices and descriptions.
+
+**Notification** - As mentioned before the notifications system is the centralized way of talking back to the client. It takes a message and some command which when passed to the client will lead to certain actions being executed.
+
+**Payment** - A very simple implementation of a payment service. It takes requests which include credit card information and randomly decides if this card should be accepted or declined.
+
+</br>
+
+The following architecture diagrams provide an insight (various sequential scenarious) on how the software implementation has been made:
+<p align="center">
+<img src="architecture/EIPaterns-1.png">
+<em>Reservation initiation</em>
+</p>
+</br>
+
+<p align="center">
+<img src="architecture/EIPaterns-2.png">
+<em>Packages generation process</em>
+</p>
+</br>
+
+<p align="center">
+<img src="architecture/EIPaterns-3.A.png">
+<em>Choosing a package deal</em>
+</p>
+</br>
+
+<p align="center">
+<img src="architecture/EIPaterns-3.B.png">
+<em>Declining an offer</em>
+</p>
+
+</br>
+
+<p align="center">
+<img src="architecture/EIPaterns-3.A.1.png">
+<em>Payment process</em>
+</p>
+
+</br>
+</br>
+
+The entire software architecture can be seen below:
+<p align="center">
+<img src="architecture/EIPaterns-full.png">
+<em>Architecture</em>
+</p>
+
 </br>
 
 ---
