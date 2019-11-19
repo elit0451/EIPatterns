@@ -23,7 +23,7 @@ Next, start the _Client service_ by running `dotnet run` in `src/Client` folder.
 
 ---
 ## Business Scenario :briefcase:
-Writtend description of the depicked scenario can be found in a [pdf format](https://github.com/datsoftlyngby/soft2019fall-lsd-teaching-material/blob/master/week36/case_car_article.pdf).
+Written description of the depicked scenario can be found in a [pdf format](https://github.com/datsoftlyngby/soft2019fall-lsd-teaching-material/blob/master/week36/case_car_article.pdf).
 
 <p align="center">
 <img src="BPMN_CarRental.png">
